@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99da259e02da6af43b0f4c1c3d670c27, type: 3}
+  m_Name: FanData
+  m_EditorClassIdentifier: 
+  objectId: fan
+  prefab: {fileID: 7259361092310359938, guid: fa46bd551c159cb4eac7288598769e57, type: 3}
+  cost: 1
+  maxPerLevel: 10
+  size: {x: 1, y: 1}
+  placeableByPlayer: 1
+  rotatable: 1
+  category: ForceField
+  description: Aplica fuerza de empuje sobre el agente.
