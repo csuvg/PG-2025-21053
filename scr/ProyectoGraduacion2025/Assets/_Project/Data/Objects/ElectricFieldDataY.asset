@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99da259e02da6af43b0f4c1c3d670c27, type: 3}
+  m_Name: ElectricFieldDataY
+  m_EditorClassIdentifier: 
+  objectId: electric_field
+  prefab: {fileID: 6227898942552625198, guid: 0f4d47831815dcd4699c3c15d2b04219, type: 3}
+  cost: 1
+  maxPerLevel: 10
+  size: {x: 1, y: 4}
+  placeableByPlayer: 1
+  rotatable: 1
+  category: Hazard
+  description: "Da\xF1a al agente cuando lo toca."

@@ -1,0 +1,70 @@
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Evita subir datos de cache de Unity
+obj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Compilados de jugador
+*.apk
+*.aab
+*.xap
+*.ipa
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# === VS Code ===
+.vscode/
+.history/
+
+# Carpetas de dependencias externas (si usas npm, yarn, pnpm o similares)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === Sistema Operativo ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# === Unity Asset Store / Plastic SCM ===
+*.unitypackage
+.plastic/
+.glb
+.gltf
+
+# === Crash & Reportes ===
+*.stacktrace
+crash-reports/
